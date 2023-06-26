@@ -311,19 +311,19 @@ WASM_EXPORT void init(void (*map_free_cb)(Sprite *)) {
   // Grey
   state->render->palette[char_to_palette_index('0')] = color16(  0,   0,   0);
   state->render->palette[char_to_palette_index('L')] = color16( 73,  80,  87);
-  state->render->palette[char_to_palette_index('1')] = color16(145, 151, 156);
-  state->render->palette[char_to_palette_index('2')] = color16(248, 249, 250);
-  state->render->palette[char_to_palette_index('3')] = color16(235,  44,  71);
-  state->render->palette[char_to_palette_index('C')] = color16(139,  65,  46);
+  state->render->palette[char_to_palette_index('1')] = color16(194, 195, 199);
+  state->render->palette[char_to_palette_index('2')] = color16(255, 241, 232);
+  state->render->palette[char_to_palette_index('3')] = color16(255,    0, 77);
+  state->render->palette[char_to_palette_index('C')] = color16(171,  82,  54);
   state->render->palette[char_to_palette_index('7')] = color16( 25, 177, 248);
-  state->render->palette[char_to_palette_index('5')] = color16( 19,  21, 224);
-  state->render->palette[char_to_palette_index('6')] = color16(254, 230,  16);
-  state->render->palette[char_to_palette_index('F')] = color16(149, 140,  50);
-  state->render->palette[char_to_palette_index('4')] = color16( 45, 225,  62);
-  state->render->palette[char_to_palette_index('D')] = color16( 29, 148,  16);
-  state->render->palette[char_to_palette_index('8')] = color16(245, 109, 187);
-  state->render->palette[char_to_palette_index('H')] = color16(170,  58, 197);
-  state->render->palette[char_to_palette_index('9')] = color16(245, 113,  23);
+  state->render->palette[char_to_palette_index('5')] = color16( 29,  43,  83);
+  state->render->palette[char_to_palette_index('6')] = color16(255, 236,  39);
+  state->render->palette[char_to_palette_index('F')] = color16( 95,  87,  79);
+  state->render->palette[char_to_palette_index('4')] = color16(  0, 228,  54);
+  state->render->palette[char_to_palette_index('D')] = color16(  0, 135   81);
+  state->render->palette[char_to_palette_index('8')] = color16(255, 119, 168);
+  state->render->palette[char_to_palette_index('H')] = color16(126,  37,  83);
+  state->render->palette[char_to_palette_index('9')] = color16(255, 163,   0);
   state->render->palette[char_to_palette_index('.')] = color16(  0,   0,   0);
 }
 
