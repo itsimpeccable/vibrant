@@ -311,7 +311,7 @@ int main() {
                    "                    \n"
                    "                    \n"
                    "                    \n"
-                   " sprig.hackclub.dev \n");
+                   " sprig.hackclub.com \n");
 
   render_errorbuf();
   st7735_fill_start();
