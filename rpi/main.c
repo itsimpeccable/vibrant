@@ -198,14 +198,14 @@ int main() {
                      "                    \n"
                      "                    \n"
                      "                    \n"
-                     "    PLEASE UPLOAD   \n"
-                     "       A GAME       \n"
+                     " PLEASE LOAD A GAME \n"
                      "                    \n"
                      "                    \n"
                      "                    \n"
                      "                    \n"
                      "                    \n"
-                     " sprig.hackclub.dev \n");
+                     "                    \n"
+                     " sprig.hackclub.com \n");
     render_errorbuf();
     st7735_fill_start();
       render(write_pixel);
@@ -231,14 +231,14 @@ int main() {
                      "                    \n"
                      "                    \n"
                      "                    \n"
-                     "    PRESS ANY KEY   \n"
+                     "   PRESS ANY BUTTON \n"
                      "       TO RUN       \n"
                      "                    \n"
                      "                    \n"
                      "                    \n"
                      "                    \n"
                      "                    \n"
-                     " sprig.hackclub.dev \n");
+                     " sprig.hackclub.com \n");
     render_errorbuf();
     st7735_fill_start();
       render(write_pixel);
