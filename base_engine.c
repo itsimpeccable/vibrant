@@ -310,7 +310,7 @@ WASM_EXPORT void init(void (*map_free_cb)(Sprite *)) {
 
   // Grey
   state->render->palette[char_to_palette_index('0')] = color16(  0,   0,   0);
-  state->render->palette[char_to_palette_index('L')] = color16( 73,  80,  87);
+  state->render->palette[char_to_palette_index('L')] = color16( 41, 173, 255);
   state->render->palette[char_to_palette_index('1')] = color16(194, 195, 199);
   state->render->palette[char_to_palette_index('2')] = color16(255, 241, 232);
   state->render->palette[char_to_palette_index('3')] = color16(255,    0, 77);
